@@ -2,12 +2,12 @@
 Un simulateur de prêt complet avec calculs d'intérêts simples, composés, mensualités et comparaisons pour wordpress
 #Guide d'installation - Plugin Simulateur de Prêt WordPress
 ## Instructions d'installation
-	1. Création des fichiers
-		Créez un nouveau dossier nommé loan-simulator dans le répertoire /wp-content/plugins/ de votre WordPress.
-	2. Fichiers requis
-		Dans le dossier loan-simulator, créez les fichiers suivants :
-		A. loan-simulator.php (fichier principal)
-			Copiez le code PHP complet fourni dans l'artifact précédent.
+1. Création des fichiers
+Créez un nouveau dossier nommé loan-simulator dans le répertoire /wp-content/plugins/ de votre WordPress.
+### 2. Fichiers requis
+Dans le dossier loan-simulator, créez les fichiers suivants :
+#### A. loan-simulator.php (fichier principal)
+Copiez le code PHP complet fourni dans l'artifact précédent.
 		B. loan-simulator.css (sera créé automatiquement)
 			Le CSS sera généré automatiquement lors de l'activation du plugin.
 		C. loan-simulator.js (sera créé automatiquement)
