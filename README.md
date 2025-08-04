@@ -41,10 +41,13 @@ Blanc : #fff
 Orange dégradé : #ff9500
 ## Fonctionnalités de sécurité
 
-#### Validation NONCE : Toutes les requêtes AJAX sont protégées
-#### Sanitisation des données : Tous les inputs sont nettoyés
-#### Validation côté serveur : Double vérification des données
-#### Protection contre l'accès direct : Empêche l'exécution directe des fichiers
+Validation NONCE : Toutes les requêtes AJAX sont protégées
+
+Sanitisation des données : Tous les inputs sont nettoyés
+
+Validation côté serveur : Double vérification des données
+
+Protection contre l'accès direct : Empêche l'exécution directe des fichiers
 
 ## Responsive
 Le plugin est entièrement responsive et s'adapte à tous les écrans :
