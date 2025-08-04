@@ -13,19 +13,20 @@ Le CSS sera généré automatiquement lors de l'activation du plugin.
 C. loan-simulator.js (sera créé automatiquement)
 Le JavaScript sera généré automatiquement lors de l'activation du plugin.
 ### 3. Structure finale
-		```
+```
 		wp-content/
 		└── plugins/
 	    	└── loan-simulator/
 		        ├── loan-simulator.php
 		        ├── loan-simulator.css (créé automatiquement)
 		        └── loan-simulator.js (créé automatiquement)
-		```
+```
+
 ### 4. Activation du plugin
-		1. Connectez-vous à votre administration WordPress
-		2. Allez dans Extensions > Extensions installées
-		3. Recherchez "Simulateur de Prêt Avancé"
-		4. Cliquez sur Activer
+1. Connectez-vous à votre administration WordPress
+2. Allez dans Extensions > Extensions installées
+3. Recherchez "Simulateur de Prêt Avancé"
+4. Cliquez sur Activer
 ### 5. Utilisation
 Pour afficher le simulateur sur une page ou un article, utilisez le shortcode :
 		```[loan_simulator]```
@@ -34,23 +35,23 @@ Vous pouvez également personnaliser la classe CSS :
 
 ## Couleurs utilisées
 
-	Orange principal : #cd7e02
-	Noir : #000
-	Blanc : #fff
-	Orange dégradé : #ff9500
+Orange principal : #cd7e02
+Noir : #000
+Blanc : #fff
+Orange dégradé : #ff9500
 ## Fonctionnalités de sécurité
 
-	Validation NONCE : Toutes les requêtes AJAX sont protégées
-	Sanitisation des données : Tous les inputs sont nettoyés
-	Validation côté serveur : Double vérification des données
-	Protection contre l'accès direct : Empêche l'exécution directe des fichiers
+Validation NONCE : Toutes les requêtes AJAX sont protégées
+Sanitisation des données : Tous les inputs sont nettoyés
+Validation côté serveur : Double vérification des données
+Protection contre l'accès direct : Empêche l'exécution directe des fichiers
 
 ## Responsive
 Le plugin est entièrement responsive et s'adapte à tous les écrans :
 
-		Desktop
-		Tablette
-		Mobile
+Desktop
+Tablette
+Mobile
 
 ## Fonctionnalités
 4 modes de calcul :
@@ -118,7 +119,7 @@ Testez avec les outils de développement du navigateur
 Modifier les couleurs dans le fichier CSS généré
 Ajouter du CSS custom dans votre thème
 Utiliser les classes CSS existantes comme points d'ancrage
-
+```
 	/* Modifier la couleur principale */
 		.loan-simulator-container .ls-header h1 {
 		    color: #votre-couleur !important;
@@ -128,7 +129,7 @@ Utiliser les classes CSS existantes comme points d'ancrage
 		.loan-simulator-container .ls-calculate-btn {
 		    background: linear-gradient(135deg, #votre-couleur1, #votre-couleur2) !important;
 		}
-
+```
 ## Support
 Pour toute question ou problème :
 
